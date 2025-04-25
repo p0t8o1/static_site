@@ -23,6 +23,3 @@ class TestTextNode(unittest.TestCase):
         print("test 3 textnode")
         self.assertEqual(node6, node7)
         self.assertNotEqual(node7,node8)
-
-if __name__ == "__main__":
-    unittest.main()
