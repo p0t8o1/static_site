@@ -67,3 +67,6 @@ class TestTextNode(unittest.TestCase):
         self.assertEqual(html_node.tag, "img")
         self.assertEqual(html_node.value, None)
         self.assertEqual(html_node.props, {"src": "https://github.com/p0t8o1/static_site", "alt":"This is an image node"})
+
+if __name__ == "__main__":
+    unittest.main()
